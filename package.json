@@ -1,0 +1,23 @@
+{
+  "name": "udemy-javascript",
+  "version": "1.0.0",
+  "description": "JavaScript Udemy Course - The Complete Guide",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kfatkin/practice-oop-js.git"
+  },
+  "keywords": [
+    "Kevin",
+    "Fatkin"
+  ],
+  "author": "Kevin Fatkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kfatkin/practice-oop-js/issues"
+  },
+  "homepage": "https://github.com/kfatkin/practice-oop-js#readme"
+}
