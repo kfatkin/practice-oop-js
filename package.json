@@ -10,10 +10,6 @@
     "type": "git",
     "url": "git+ssh://git@github.com/kfatkin/practice-oop-js.git"
   },
-  "keywords": [
-    "Kevin",
-    "Fatkin"
-  ],
   "author": "Kevin Fatkin",
   "license": "ISC",
   "bugs": {
