@@ -14,10 +14,10 @@ export class ProjectList {
     const prjItems = document.querySelectorAll(`#${type}-projects li`);
     for (const prjItem of prjItems) {
       this.projects.push(
-        new PrjItem(prjItem.id, this.switchProject.bind(this), this.type)
+        new PrjItem(prjItem.id, this.switchProject.bind(this), this.type),
       );
     }
-    console.log(this.projects);
+    // console.log(this.projects);
     this.connectDroppable();
   }
 
