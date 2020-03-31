@@ -1,4 +1,3 @@
-/* eslint-disable function-call-argument-newline */
 const timerTime = 2000;
 
 const intervalId = setInterval(() => {

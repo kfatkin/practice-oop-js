@@ -1,24 +1,17 @@
 {
-  "name": "udemy-javascript",
+  "name": "javascript-complete-guide",
   "version": "1.0.0",
-  "description": "JavaScript Udemy Course - The Complete Guide",
-  "main": "index.html",
+  "description": "JavaScript - The Complete Guide",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/kfatkin/practice-oop-js.git"
-  },
-  "author": "Kevin Fatkin",
+  "author": "Maximilian Schwarzmueller",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kfatkin/practice-oop-js/issues"
-  },
-  "homepage": "https://github.com/kfatkin/practice-oop-js#readme",
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11"
+    "eslint": "^6.4.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
   }
 }

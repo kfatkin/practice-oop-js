@@ -1,5 +1,4 @@
-/* eslint-disable comma-dangle */
-import { ProjectList } from './App/ProjectList.js';
+import { ProjectList } from './App/ProjectList';
 
 // eslint-disable-next-line no-undef
 globalThis.DEFAULT_VALUE = 'MAX';
@@ -10,10 +9,10 @@ class App {
     const finishedProjectsList = new ProjectList('finished');
 
     activeProjectsList.setSwitchHandlerFunction(
-      finishedProjectsList.addProject.bind(finishedProjectsList),
+      finishedProjectsList.addProject.bind(finishedProjectsList)
     );
     finishedProjectsList.setSwitchHandlerFunction(
-      activeProjectsList.addProject.bind(activeProjectsList),
+      activeProjectsList.addProject.bind(activeProjectsList)
     );
 
     // const timerId = setTimeout(this.startAnalytics, 3000);
