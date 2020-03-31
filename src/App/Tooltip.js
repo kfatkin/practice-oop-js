@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import Cmp, { doSomething } from './Component';
 
 console.log('Tooltip running');
