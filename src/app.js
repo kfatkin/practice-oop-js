@@ -1,18 +1,20 @@
+import * as _ from 'lodash';
 import { ProjectList } from './App/ProjectList';
 
 // eslint-disable-next-line no-undef
 globalThis.DEFAULT_VALUE = 'MAX';
 
+console.log(_.difference([0, 1], [1, 2]));
 class App {
   static init() {
     const activeProjectsList = new ProjectList('active');
     const finishedProjectsList = new ProjectList('finished');
 
     activeProjectsList.setSwitchHandlerFunction(
-      finishedProjectsList.addProject.bind(finishedProjectsList)
+      finishedProjectsList.addProject.bind(finishedProjectsList),
     );
     finishedProjectsList.setSwitchHandlerFunction(
-      activeProjectsList.addProject.bind(activeProjectsList)
+      activeProjectsList.addProject.bind(activeProjectsList),
     );
 
     // const timerId = setTimeout(this.startAnalytics, 3000);
